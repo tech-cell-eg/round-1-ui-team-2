@@ -1,517 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Events</title>
-        <!-- FontAwesome CSS -->
-        <link rel="stylesheet" href="assets/css/all.min.css">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <!-- Google Fonts -->
-        <!-- Sora Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- Start Header -->
-        <header id="header">
-            <!-- Top Bar -->
-            <nav class="TopBar navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarTop"
-                        aria-controls="navbarTop"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="navbarTop">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <i class="fa-brands fa-facebook-f text-white"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <i class="fa-brands fa-instagram text-white"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <i class="fa-brands fa-linkedin-in text-white"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <i class="fa-brands fa-youtube text-white"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">
-                                    <i class="fa-solid fa-phone-volume"></i>
-                                    (00) 875 784 5682
-                                </a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">
-                                    <i class="fa-solid fa-envelope"></i>
-                                    pacargoinfo@gmail.com
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav d-flex align-items-center">
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Portal</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Calendar</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Alumni</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Events</a>
-                            </li>
-                            <li class="Dash nav-item px-2">|</li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Contact us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Top Bar -->
-            <!-- Main Navbar -->
-            <nav class="mainBar navbar navbar-expand-lg">
-                <div class="container d-flex justify-content-between align-items-center">
-                    <a class="navbar-brand" href="#">
-                        <img id="mainLogo" src="assets/images/Main-Logo.png" alt="Logo">
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarMain"
-                        aria-controls="navbarMain"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarMain">
-                        <ul class="navbar-nav d-flex align-items-center">
-                            <li class="nav-item px-3">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item px-3">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item px-3 dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Courses
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item px-3 dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Pages
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item px-3 dropdown">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Blog
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item px-3">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Main Navbar -->
-        </header>
-        <!-- End Header -->
-        <!-- Start Hero Section -->
-        <section id="hero">
-            <div class="container-fluid">
-                <div class="heroBox row">
-                    <div class="col-12">
-                        <h1>EVENT</h1>
-                        <div class="links">
-                            <a href="#">Home</a>
-                            <span>&nbsp;//&nbsp;</span>
-                            <a href="#">Event</a>
-                        </div>
-                    </div>
-                </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Google Fonts -->
+  <!-- Sora Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header id="header">
+    <!-- Top Bar -->
+    <div class="TopBar container-fluid">
+        <div class="row">
+            <div class=" col-md-12 col-lg-6  py-3 topNave-icons ">
+                <ul class=" d-flex align-items-center">
+                    <li class="px-2 topNavIcon">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-brands fa-facebook-f text-white"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 topNavIcon">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-instagram text-white"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 topNavIcon">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-linkedin-in text-white"></i>
+                        </a>
+                    </li>
+                    <li class="px-2 topNavIcon">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-youtube text-white"></i>
+                        </a>
+                    </li>
+                    <li class="px-2">
+                        <a class="nav-link d-flex align-items-center" href="#">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span class="mx-2">(00) 875 784 5682</span>
+                        </a>
+                    </li>
+                    <li class="px-2">
+                        <a class="nav-link d-flex align-items-center" href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="mx-2">pacargoinfo@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <!-- End Hero Section -->
-        <!-- Start Events Section -->
-        <section id="events">
-            <div class="container">
-                <div class="row">
-                    <!-- Column 1 -->
-                    <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
-                        <div class="card shadow mx-2">
-                            <img src="assets/images/events/Event(1).png" class="card-img-top" alt="event1">
-                            <span class="badge">
-                                <h2>08</h2>
-                                <h5>October</h5>
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Print and publishing industries for previewing
-                                </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                tempor.
-                                </p>
-                                <div class="details d-flex align-items-center justify-content-between">
-                                    <div class="time d-flex align-items-center">
-                                        <i class="fa-solid fa-clock"></i>
-                                        <span>Time: 11:00am - 03:00pm</span>
-                                    </div>
-                                    <div class="location d-flex align-items-center">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <span>Location: USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
-                        <div class="card shadow mx-2">
-                            <img src="assets/images/events/Event(2).png" class="card-img-top" alt="event1">
-                            <span class="badge">
-                                <h2>08</h2>
-                                <h5>October</h5>
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Print and publishing industries for previewing
-                                </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                tempor.
-                                </p>
-                                <div class="details d-flex align-items-center justify-content-between">
-                                    <div class="time d-flex align-items-center">
-                                        <i class="fa-solid fa-clock"></i>
-                                        <span>Time: 11:00am - 03:00pm</span>
-                                    </div>
-                                    <div class="location d-flex align-items-center">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <span>Location: USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Column 2 -->
-                    <div class="col-12 col-md-6 col-lg-4 d-grid gap-3 mb-4">
-                        <div class="card shadow mx-2">
-                            <img src="assets/images/events/Event(3).png" class="card-img-top" alt="event1">
-                            <span class="badge">
-                                <h2>05</h2>
-                                <h5>October</h5>
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Print and publishing industries for previewing
-                                </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                tempor.
-                                </p>
-                                <div class="details d-flex align-items-center justify-content-between">
-                                    <div class="time d-flex align-items-center">
-                                        <i class="fa-solid fa-clock"></i>
-                                        <span>Time: 11:00am - 03:00pm</span>
-                                    </div>
-                                    <div class="location d-flex align-items-center">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <span>Location: USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-grid gap-3 mb-4">
-                        <div class="card shadow mx-2">
-                            <img src="assets/images/events/Event(1).png" class="card-img-top" alt="event1">
-                            <span class="badge">
-                                <h2>05</h2>
-                                <h5>October</h5>
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Print and publishing industries for previewing
-                                </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor.
-                                </p>
-                                <div class="details d-flex align-items-center justify-content-between">
-                                    <div class="time d-flex align-items-center">
-                                        <i class="fa-solid fa-clock"></i>
-                                        <span>Time: 11:00am - 03:00pm</span>
-                                    </div>
-                                    <div class="location d-flex align-items-center">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <span>Location: USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Column 3 -->
-                    <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
-                        <div class="card shadow mx-2">
-                            <img src="assets/images/events/Event(2).png" class="card-img-top" alt="event2">
-                            <span class="badge">
-                                <h2>25</h2>
-                                <h5>October</h5>
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Print and publishing industries for previewing
-                                </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                tempor.
-                                </p>
-                                <div class="details d-flex align-items-center justify-content-between">
-                                    <div class="time d-flex align-items-center">
-                                        <i class="fa-solid fa-clock"></i>
-                                        <span>Time: 11:00am - 03:00pm</span>
-                                    </div>
-                                    <div class="location d-flex align-items-center">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <span>Location: USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
-                        <div class="card shadow mx-2">
-                            <img src="assets/images/events/Event(3).png" class="card-img-top" alt="event2">
-                            <span class="badge">
-                                <h2>25</h2>
-                                <h5>October</h5>
-                            </span>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Print and publishing industries for previewing
-                                </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                tempor.
-                                </p>
-                                <div class="details d-flex align-items-center justify-content-between">
-                                    <div class="time d-flex align-items-center">
-                                        <i class="fa-solid fa-clock"></i>
-                                        <span>Time: 11:00am - 03:00pm</span>
-                                    </div>
-                                    <div class="location d-flex align-items-center">
-                                        <i class="fa-solid fa-location-dot"></i>
-                                        <span>Location: USA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Events Section -->
-        <!-- Start Footer Section -->
-        <footer id="footer">
-            <div class=" container-fluid ">
-                <div class="row">
-                    <div class="col-12 p-0">
-                        <div class="container-fluid">
-                            <div class="info row text-center">
-                                <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
-                                    <div class="d-flex justify-content-center">
-                                        <i class="fas fa-map-marker-alt contact-icon"></i>
-                                        <div class="contact-details">
-                                            <p class="title m-0">Address:</p>
-                                            <p class="desc">1925 Boggess Street</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
-                                    <div class="d-flex justify-content-center">
-                                        <i class="fa-solid fa-phone contact-icon"></i>
-                                        <div class="contact-details">
-                                            <p class="title m-0">Phone:</p>
-                                            <p class="desc">(00) 875 784 568</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
-                                    <div class="d-flex justify-content-center">
-                                        <i class="fa-solid fa-envelope contact-icon"></i>
-                                        <div class="contact-details">
-                                            <p class="title m-0">Email :</p>
-                                            <p class="desc">info@gmail.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-details container gap-4">
-                            <div class="footer-details row  my-5 ">
-                                <div class="col col-12 col-lg-3 col-md-4 mb-6 mb-md-0 ">
-                                    <img class="footer-logo mb-4" src="assets/images/footer/footer-logo.png" alt="logo">
-                                    <p class="footer-desc mt-3 mb-0 text-white">
-                                        Interdum velit laoreet id donec ultrices tincidunt arcu. Tincidunt tortor aliq mfacilisi cras fermentum odio eu.
-                                    </p>
-                                    <ul class="footer-icon mt-3 p-0 d-flex justify-content-start align-items-center">
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa-brands fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa-brands fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col services col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h3 class="services-title mb-4 text-start text-white">Our Services :</h3>
-                                    <ul class="p-0">
-                                        <li class="text-start d-flex gap-3 align-items-center mb-2">
-                                            <i class="text-white fa-solid fa-angle-right"></i>
-                                            <a class="text-white service" href="#">Web development</a>
-                                        </li>
-                                        <li class="text-start d-flex gap-3 align-items-center mb-2">
-                                            <i class="text-white fa-solid fa-angle-right"></i>
-                                            <a class="text-white service" href="#">UI/UX Design</a>
-                                        </li>
-                                        <li class="text-start d-flex gap-3 align-items-center mb-2">
-                                            <i class="text-white fa-solid fa-angle-right"></i>
-                                            <a class="text-white service" href="#">Management</a>
-                                        </li>
-                                        <li class="text-start d-flex gap-3 align-items-center mb-2">
-                                            <i class="text-white fa-solid fa-angle-right"></i>
-                                            <a class="text-white service" href="#">Digital Marketing</a>
-                                        </li>
-                                        <li class="text-start d-flex gap-3 align-items-center mb-2">
-                                            <i class="text-white fa-solid fa-angle-right"></i>
-                                            <a class="text-white service" href="#">Blog News</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h3 class="gallery-title mb-4 text-start text-white">Gallery</h3>
-                                    <div class="gallery gap-1">
-                                        <img class="mb-1" src="assets/images/footer/Link.png" alt="one">
-                                        <img class="mb-1" src="assets/images/footer/Link (1).png" alt="two">
-                                        <img class="mb-1" src="assets/images/footer/Link (2).png" alt="three">
-                                        <img class="mb-1" src="assets/images/footer/Link (3).png" alt="four">
-                                        <img class="mb-1" src="assets/images/footer/Link (4).png" alt="five">
-                                        <img class="mb-1" src="assets/images/footer/Link (5).png" alt="six">
-                                    </div>
-                                </div>
-                                <div class="col col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h3 class="services-title mb-4 text-start">Subscribe</h3>
-                                    <div class="subscribe form-control mb-4">
-                                        <input type="email" placeholder="Enter your email" class="form-control border-0">
-                                    </div>
-                                    <button class="btn sub-btn">Subscribe</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="copyRights m-0 border-none">
-                        Copyright © 2024
-                        <span>
-                            <a href="#">edunity</a>
-                        </span>
-                        || All Rights
-          Reserved
-                    </p>
-                </div>
+            <div class="col-lg-6  py-3">
+                <ul class="topNave-links d-flex align-items-center justify-content-end">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Portal</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Calendar</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Alumni</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="Dash nav-item px-2">|</li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
-    <!-- End Footer Section -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/all.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    </div>
+    <!-- Top Bar -->
+    <!-- Main Navbar -->
+    <nav class="mainBar navbar navbar-expand-lg">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+                <img id="mainLogo" src="../../assets/images/Main-Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMain">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Navbar -->
+</header>
+  <!-- End Header -->
+  <!-- Start Hero Section -->
+  <section id="hero">
+    <div class="container-fluid">
+      <div class="heroBox row">
+        <div class="col-12">
+          <h1>EVENT</h1>
+          <div class="links">
+            <a href="#">Home</a>
+            <span>&nbsp;//&nbsp;</span>
+            <a href="#">Event</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+  <!-- Start Events Section -->
+  <section id="events">
+    <div class="container">
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
+          <div class="card shadow mx-2">
+            <img src="assets/images/events/Event(1).png" class="card-img-top" alt="event1">
+            <span class="badge">
+              <h2>08</h2>
+              <h5>October</h5>
+            </span>
+            <div class="card-body">
+              <h5 class="card-title">
+                Print and publishing industries for previewing
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                tempor.
+              </p>
+              <div class="details d-flex align-items-center justify-content-between">
+                <div class="time d-flex align-items-center">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Time: 11:00am - 03:00pm</span>
+                </div>
+                <div class="location d-flex align-items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Location: USA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
+          <div class="card shadow mx-2">
+            <img src="assets/images/events/Event(2).png" class="card-img-top" alt="event1">
+            <span class="badge">
+              <h2>08</h2>
+              <h5>October</h5>
+            </span>
+            <div class="card-body">
+              <h5 class="card-title">
+                Print and publishing industries for previewing
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                tempor.
+              </p>
+              <div class="details d-flex align-items-center justify-content-between">
+                <div class="time d-flex align-items-center">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Time: 11:00am - 03:00pm</span>
+                </div>
+                <div class="location d-flex align-items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Location: USA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-12 col-md-6 col-lg-4 d-grid gap-3 mb-4">
+          <div class="card shadow mx-2">
+            <img src="assets/images/events/Event(3).png" class="card-img-top" alt="event1">
+            <span class="badge">
+              <h2>05</h2>
+              <h5>October</h5>
+            </span>
+            <div class="card-body">
+              <h5 class="card-title">
+                Print and publishing industries for previewing
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                tempor.
+              </p>
+              <div class="details d-flex align-items-center justify-content-between">
+                <div class="time d-flex align-items-center">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Time: 11:00am - 03:00pm</span>
+                </div>
+                <div class="location d-flex align-items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Location: USA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 d-grid gap-3 mb-4">
+          <div class="card shadow mx-2">
+            <img src="assets/images/events/Event(1).png" class="card-img-top" alt="event1">
+            <span class="badge">
+              <h2>05</h2>
+              <h5>October</h5>
+            </span>
+            <div class="card-body">
+              <h5 class="card-title">
+                Print and publishing industries for previewing
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor.
+              </p>
+              <div class="details d-flex align-items-center justify-content-between">
+                <div class="time d-flex align-items-center">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Time: 11:00am - 03:00pm</span>
+                </div>
+                <div class="location d-flex align-items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Location: USA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
+          <div class="card shadow mx-2">
+            <img src="assets/images/events/Event(2).png" class="card-img-top" alt="event2">
+            <span class="badge">
+              <h2>25</h2>
+              <h5>October</h5>
+            </span>
+            <div class="card-body">
+              <h5 class="card-title">
+                Print and publishing industries for previewing
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                tempor.
+              </p>
+              <div class="details d-flex align-items-center justify-content-between">
+                <div class="time d-flex align-items-center">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Time: 11:00am - 03:00pm</span>
+                </div>
+                <div class="location d-flex align-items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Location: USA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 d-grid gap-4 mb-4">
+          <div class="card shadow mx-2">
+            <img src="assets/images/events/Event(3).png" class="card-img-top" alt="event2">
+            <span class="badge">
+              <h2>25</h2>
+              <h5>October</h5>
+            </span>
+            <div class="card-body">
+              <h5 class="card-title">
+                Print and publishing industries for previewing
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                tempor.
+              </p>
+              <div class="details d-flex align-items-center justify-content-between">
+                <div class="time d-flex align-items-center">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Time: 11:00am - 03:00pm</span>
+                </div>
+                <div class="location d-flex align-items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Location: USA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Events Section -->
+  <!-- Start Footer Section -->
+  <footer id="footer">
+    <div class=" container-fluid">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div class="container-fluid">
+            <div class="info row text-center">
+              <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fas fa-map-marker-alt contact-icon"></i>
+                  <div class="contact-details text-start ms-3">
+                    <p class="title m-0">Address:</p>
+                    <p class="desc text-white">1925 Boggess Street</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-phone contact-icon"></i>
+                  <div class="contact-details text-start ms-3">
+                    <p class="title m-0">Phone:</p>
+                    <p class="desc text-white">(00) 875 784 568</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-envelope contact-icon"></i>
+                  <div class="contact-details text-start ms-3">
+                    <p class="title m-0">Email :</p>
+                    <p class="desc text-white">info@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-details container gap-4">
+            <div class="footer-details row  my-5 ">
+              <div class="col col-12 col-lg-3 col-md-4 mb-6 mb-md-0 ">
+                <img class="footer-logo mb-4" src="assets/images/footer/footer-logo.png" alt="logo">
+                <p class="footer-desc mt-3 mb-0 text-white">
+                  Interdum velit laoreet id donec ultrices tincidunt arcu. Tincidunt tortor aliq
+                  mfacilisi cras fermentum odio eu.
+                </p>
+                <ul class="footer-icon mt-3 p-0 d-flex justify-content-start align-items-center">
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col services col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="services-title mb-4 text-start text-white">Our Services :</h3>
+                <ul class="p-0">
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Web development</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">UI/UX Design</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Management</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Digital Marketing</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Blog News</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="gallery-title mb-4 text-start text-white">Gallery</h3>
+                <div class="gallery gap-1">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link.png" alt="one">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (1).png" alt="two">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (2).png" alt="three">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (3).png" alt="four">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (4).png" alt="five">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (5).png" alt="six">
+                </div>
+              </div>
+              <div class="col subscribe-form col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="subscribe-title mb-4 text-start text-white">Subscribe</h3>
+                <div class="subscribe form-control mb-4">
+                  <input type="email" placeholder="Enter your email" class="form-control border-0">
+                </div>
+                <button class="btn sub-btn text-white">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copyRights m-0 border-none">
+          Copyright © 2024
+          <span>
+            <a href="#">edunity</a>
+          </span>
+          || All Rights
+          Reserved
+        </p>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>
