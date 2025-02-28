@@ -1467,4 +1467,12 @@ color: #333931;
         grid-template-columns: 1fr;
     }
 }
-
+.accordion-button {
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background-color: #7768E5;
+}
