@@ -1467,6 +1467,7 @@ color: #333931;
         grid-template-columns: 1fr;
     }
 }
+/* FAQ Page */
 .accordion-button {
 font-weight: 600;
 font-size: 20px;
@@ -1476,3 +1477,10 @@ align-items: center;
 color: #FFFFFF;
 background-color: #7768E5;
 }
+/* Pricing Tables Page */
+/* .prices-section .card{
+background: url('assets/images/prices/price1.png') no-repeat center/cover;
+background-color: #0E2A46;
+width: 400px;
+height: 600px;
+} */
