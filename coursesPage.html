@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="py-2">
+        <div class="container-fluid">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <div class="d-flex flex-column flex-md-row gap-3">
+                    <div class="p-2"><i class="fa-solid fa-phone-volume"style="color: #FFD25D;"></i> (00) 875 784 5682</div>
+                    <div class="p-2"><i class="fa-brands fa-instagram" style="color: #FFD25D;"></i> pacargoinfo@gmail.com</div>
+                    <div class="p-2"><i class="fa-solid fa-location-dot"style="color: #FFD25D;"></i> 238, Arimantab, Moska - USA</div>
+                </div>
+
+                <div class="icons d-flex justify-content-center gap-3">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- NavBar Section -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+      <div class="container">
+          <a class="navbar-brand" href="/index.html">
+              <img src="assets/images/home/logo.png" alt="Logo" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between text-center" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/aboutUs.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/coursesPage.html">Courses</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                          <li><a class="dropdown-item" href="events.html">Event</a></li>
+                          <li><a class="dropdown-item" href="event-details.html">Event Details</a></li>
+                          <li><a class="dropdown-item" href="#">Instructor</a></li>
+                          <li><a class="dropdown-item" href="#">Instructor Details</a></li>
+                          <li><a class="dropdown-item" href="#">Instructor Registration</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Service Style</a></li>
+                          <li><a class="dropdown-item" href="#">Student Registration</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                          <li><a class="dropdown-item" href="faqsPage.html">FAQ</a></li>
+                          <li><a class="dropdown-item" href="pricePage.html">Price</a></li>
+                          <li><a class="dropdown-item" href="#">Shop</a></li>
+                          <li><a class="dropdown-item" href="#">Shop Details</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Cart</a></li>
+                          <li><a class="dropdown-item" href="#">Checkout</a></li>
+                          <li><a class="dropdown-item" href="#">Error</a></li>
+                      </ul>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+              <a href="#" class="button ms-lg-3 mt-2 mt-lg-0">Create Account →</a>
+          </div>
+      </div>
+  </nav>
+    <!-- Hero Section -->
+    <main class="hero-section d-flex align-items-center justify-content-center">
+        <div class="container text-center text-md-start">
+            <div class="content">
+                <h3>Courses Page</h3>
+                <p>Home <span>//</span>Course</p>
+            </div>
+        </div>
+    </main>
+    
+<!-- Courses -->
+<section class="container mt-5 mb-4">
+    <p class="highlight text-uppercase text-center">Top Popular Courses</p>
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <h2 class="text-left">Edunity Course <span class="circle">student</span> can <br> join with us.</h2>
+    </div>
+    <div class="cards container row row-cols-1 row-cols-md-3">
+        <div class="card1 card" style="width: 25rem; height: 35rem;">
+            <img src="assets/images/home/card1.png" class="card-img-top mt-3" alt="course 1">
+            <p class="course-label">Digital Marketing</p>
+            <div class="cardBody">
+            <div class="rate">
+                <p class="stars">★★★★★ <span> 4.5K</span></p>
+                <p>$50.00</p>
+            </div>
+            <h5 class="card-title">It Statistics Data Science And
+                Business Analysis</h5>
+            <div class="data">
+                    <i class="fa-solid fa-file-invoice"></i>
+                        <p>Lesson 10</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>19h 30m</p>
+                        <i class="fa-solid fa-user"></i>
+                        <p>Students 20+</p>
+            </div>
+            <div class="enroll">
+                <div class="person d-flex g-5">
+                    <img src="assets/images/home/person1.png" style="width: 45px; height: 45px;" />
+                    <p>Samantha</p>
+                </div>
+            <a href="/courseDetails.html" class="button2">Enroll →</a>
+            </div>
+            </div>
+        </div>
+        <div class="card2 card" style="width: 25rem; height: 35rem;">
+            <img src="assets/images/home/card2.png" class="card-img-top mt-3" alt="course 2">
+            <p class="course-label">Digital Marketing</p>
+            <div class="cardBody">
+                <div class="rate">
+                    <p class="stars">★★★★★ <span> 4.5K</span></p>
+                    <p>$50.00</p>
+                </div>
+                <h5 class="card-title">Bilginer Adobe Illustrator For
+                    Graphic Design</h5>
+                <div class="data">
+                        <i class="fa-solid fa-file-invoice"></i>
+                            <p>Lesson 10</p>
+                            <i class="fa-solid fa-clock"></i>
+                            <p>19h 30m</p>
+                            <i class="fa-solid fa-user"></i>
+                            <p>Students 20+</p>
+                </div>
+                <div class="enroll">
+                    <div class="person d-flex g-5">
+                        <img src="assets/images/home/person2.png" style="width: 45px; height: 45px;" />
+                        <p>Charles</p>
+                    </div>
+                <a href="/courseDetails.html" class="button2">Enroll →</a>
+                </div>
+            </div>
+        </div>
+        <div class="card3 card" style="width: 25rem; height: 35rem;">
+            <img src="assets/images/home/card3.png" class="card-img-top mt-3" alt="course 3">
+            <p class="course-label">Digital Marketing</p>
+            <div class="cardBody">
+                <div class="rate">
+                    <p class="stars">★★★★★ <span> 4.5K</span></p>
+                    <p>$50.00</p>
+                </div>
+                <h5 class="card-title">Starting SEO as your Home Based
+                    Business</h5>
+                <div class="data">
+                        <i class="fa-solid fa-file-invoice"></i>
+                            <p>Lesson 10</p>
+                            <i class="fa-solid fa-clock"></i>
+                            <p>19h 30m</p>
+                            <i class="fa-solid fa-user"></i>
+                            <p>Students 20+</p>
+                </div>
+                <div class="enroll">
+                    <div class="person d-flex g-5">
+                        <img src="assets/images/home/person3.png" style="width: 45px; height: 45px;" />
+                        <p>Morgan</p>
+                    </div>
+                <a href="/courseDetails.html" class="button2">Enroll →</a>
+                </div>
+            </div>
+        </div>
+        <div class="card4 card" style="width: 25rem; height: 35rem;">
+            <img src="assets/images/home/card4.png" class="card-img-top mt-3" alt="course 2">
+            <p class="course-label">Digital Marketing</p>
+            <div class="cardBody">
+                <div class="rate">
+                    <p class="stars">★★★★★ <span> 4.5K</span></p>
+                    <p>$50.00</p>
+                </div>
+                <h5 class="card-title">Bilginer Adobe Illustrator For
+                    Graphic Design</h5>
+                <div class="data">
+                        <i class="fa-solid fa-file-invoice"></i>
+                            <p>Lesson 10</p>
+                            <i class="fa-solid fa-clock"></i>
+                            <p>19h 30m</p>
+                            <i class="fa-solid fa-user"></i>
+                            <p>Students 20+</p>
+                </div>
+                <div class="enroll">
+                    <div class="person d-flex g-5">
+                        <img src="assets/images/home/person4.png" style="width: 45px; height: 45px;" />
+                        <p>Brian Brewer</p>
+                    </div>
+                <a href="/courseDetails.html" class="button2">Enroll →</a>
+                </div>
+            </div>
+        </div>
+        <div class="card5 card" style="width: 25rem; height: 35rem;">
+            <img src="assets/images/home/card5.png" class="card-img-top mt-3" alt="course 2">
+            <p class="course-label">Digital Marketing</p>
+            <div class="cardBody">
+                <div class="rate">
+                    <p class="stars">★★★★★ <span> 4.5K</span></p>
+                    <p>$50.00</p>
+                </div>
+                <h5 class="card-title">It Statistics Data Science And
+                    Business Analysis</h5>
+                <div class="data">
+                        <i class="fa-solid fa-file-invoice"></i>
+                            <p>Lesson 10</p>
+                            <i class="fa-solid fa-clock"></i>
+                            <p>19h 30m</p>
+                            <i class="fa-solid fa-user"></i>
+                            <p>Students 20+</p>
+                </div>
+                <div class="enroll">
+                    <div class="person d-flex g-5">
+                        <img src="assets/images/home/person5.png" style="width: 45px; height: 45px;" />
+                        <p>Rodriquez</p>
+                    </div>
+                <a href="/courseDetails.html" class="button2">Enroll →</a>
+                </div>
+            </div>
+        </div>
+        <div class="card6 card" style="width: 25rem; height: 35rem;">
+            <img src="assets/images/home/card6.png" class="card-img-top mt-3" alt="course 2">
+            <p class="course-label">Digital Marketing</p>
+            <div class="cardBody">
+                <div class="rate">
+                    <p class="stars">★★★★★ <span> 4.5K</span></p>
+                    <p>$50.00</p>
+                </div>
+                <h5 class="card-title">Starting SEO as your Home Based
+                    Business</h5>
+                <div class="data">
+                        <i class="fa-solid fa-file-invoice"></i>
+                            <p>Lesson 10</p>
+                            <i class="fa-solid fa-clock"></i>
+                            <p>19h 30m</p>
+                            <i class="fa-solid fa-user"></i>
+                            <p>Students 20+</p>
+                </div>
+                <div class="enroll">
+                    <div class="person d-flex g-5">
+                        <img src="assets/images/home/person6.png" style="width: 45px; height: 45px;" />
+                        <p>Morgan</p>
+                    </div>
+                <a href="/courseDetails.html" class="button2">Enroll →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer id="footer">
+    <div class=" container-fluid">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div class="container-fluid">
+            <div class="info row text-center">
+              <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fas fa-map-marker-alt contact-icon"></i>
+                  <div class="contact-details text-start ms-3">
+                    <p class="title m-0">Address:</p>
+                    <p class="desc text-white">1925 Boggess Street</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-phone contact-icon"></i>
+                  <div class="contact-details text-start ms-3">
+                    <p class="title m-0">Phone:</p>
+                    <p class="desc text-white">(00) 875 784 568</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-md-0 contact-col py-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-envelope contact-icon"></i>
+                  <div class="contact-details text-start ms-3">
+                    <p class="title m-0">Email :</p>
+                    <p class="desc text-white">info@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-details container gap-4">
+            <div class="footer-details row  my-5 ">
+              <div class="col col-12 col-lg-3 col-md-4 mb-6 mb-md-0 ">
+                <img class="footer-logo mb-4" src="assets/images/footer/footer-logo.png" alt="logo">
+                <p class="footer-desc mt-3 mb-0 text-white">
+                  Interdum velit laoreet id donec ultrices tincidunt arcu. Tincidunt tortor aliq
+                  mfacilisi cras fermentum odio eu.
+                </p>
+                <ul class="footer-icon mt-3 p-0 d-flex justify-content-start align-items-center">
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col services col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="services-title mb-4 text-start text-white">Our Services :</h3>
+                <ul class="p-0">
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Web development</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">UI/UX Design</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Management</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Digital Marketing</a>
+                  </li>
+                  <li class="text-start d-flex gap-3 align-items-center mb-2">
+                    <i class="text-white fa-solid fa-angle-right"></i>
+                    <a class="text-white service" href="#">Blog News</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="gallery-title mb-4 text-start text-white">Gallery</h3>
+                <div class="gallery gap-1">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link.png" alt="one">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (1).png" alt="two">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (2).png" alt="three">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (3).png" alt="four">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (4).png" alt="five">
+                  <img class="mb-1 w-25" src="assets/images/footer/Link (5).png" alt="six">
+                </div>
+              </div>
+              <div class="col subscribe-form col-12 col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="subscribe-title mb-4 text-start text-white">Subscribe</h3>
+                <div class="subscribe form-control mb-4">
+                  <input type="email" placeholder="Enter your email" class="form-control border-0">
+                </div>
+                <button class="btn sub-btn text-white">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copyRights m-0 border-none">
+          Copyright © 2024
+          <span>
+            <a href="#">edunity</a>
+          </span>
+          || All Rights
+          Reserved
+        </p>
+      </div>
+    </div>
+    </div>
+</footer>
+
+
+    
+<script src="script.js"></script>
+<!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
