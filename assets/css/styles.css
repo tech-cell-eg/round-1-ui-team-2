@@ -273,6 +273,41 @@ i {
   color: var(--secondary-text-color);
   font-size: 15px;
 }
+/* Start Teachers Page */
+.badge{
+  background-color:#E9E2FF;
+  padding: 10px 15px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.title{
+  color: var(--main-text-color);
+  font-size: 40px;
+  font-weight: bold;
+}
+.card-body{
+  position: relative;
+}
+.card-body .share-icon {
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  background-color: var(--white-orange);
+  color: white;
+  padding: 8px;
+  font-size: 20px;
+}
+.card-body .card-title{
+  color: var(--main-text-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-body .card-text{
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+/* End Teachers Page */
 /* Responsive Adjustments */
 @media (max-width: 1200px) {
   .TopBar .topNav-links {
