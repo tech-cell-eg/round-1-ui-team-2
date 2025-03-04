@@ -1655,3 +1655,106 @@ transition: ease-in-out;
 background: linear-gradient(45deg, #f7502b, #ec785e);
 color: white;
 }
+/* Education Shop Page */
+.books-section .offer{
+position: absolute;
+width: 62.69px;
+height: 24px;
+left: 0px;
+top: 24px;
+background: #FC6441;
+border-radius: 0px 50px 50px 0px;
+color: #FFFF;
+}
+.books-section .offer2{
+    position: absolute;
+    width: 62.69px;
+    height: 24px;
+    left: 0px;
+    top: 24px;
+    background: #2FC7A1;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFFF;
+    }
+.books-section .card-title{
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+text-transform: capitalize;
+color: #0E2A46;
+} 
+.books-section .row1 .card-text p{
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+color: #707279;
+}
+.books-section .row1 .card-text p span{
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+text-decoration-line: line-through;
+color: #7768E5;
+}
+.books-section .row1 .card-text .rate{
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+color: #333931;
+}
+.books-section .row1 .card-text .rate i{
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+color: #FF9431;
+}
+.books-section .row1 .btn{
+background: #E8E8F4;
+width: 70%;
+border-radius: 5px;
+font-weight: 400;
+font-size: 15px;
+line-height: 40px;
+text-transform: capitalize;
+color: #7768E5;
+}
+.books-section .row1 .btn:hover{
+    background:#7768E5 ;
+    width: 70%;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #E8E8F4;
+    }
+.custom-pagination .page-item {
+        margin: 0 5px; 
+    }
+    
+    .custom-pagination .page-link {
+        background-color:#704FE6 ;
+        color: white; 
+        border: none; 
+        border-radius: 8px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    
+    .custom-pagination .page-link:hover {
+        background-color: #5A3DBE;
+        color: white;
+    }
+    
+    .custom-pagination .prev-next {
+        background-color: #00BEAE; 
+    }
+    
+    .custom-pagination .prev-next:hover {
+        background-color: #189A91;
+    }
+    
